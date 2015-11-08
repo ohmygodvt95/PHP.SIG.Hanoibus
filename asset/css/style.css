@@ -344,7 +344,9 @@ li {
 	box-shadow: 0px 0px 5px gray;
 	border-radius: 10px;
 }
-
+.features{
+	list-style:disc ;
+}
 .first {
 	z-index: 1;
 }
