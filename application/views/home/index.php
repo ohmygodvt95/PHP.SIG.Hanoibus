@@ -106,8 +106,8 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="hidden">
-							<a href="#page-top"></a>
+						<li>
+							<a class="page-scroll scroll"  href="#top" scroll="top">Home</a>
 						</li>
 						<li>
 							<a class="page-scroll scroll"  href="#products" scroll="products">Products</a>
@@ -124,6 +124,7 @@
 			</div>
 			<!-- /.container-fluid -->
 		</nav>
+		<div class="top hidden"></div>
 		<section id="intro">
 			<div id="intro-bg">
 			</div>
@@ -164,7 +165,7 @@
 											<!-- Heading -->
 											<div class="heading">
 												<h2 class="text-center"><a href="#" title="Nhiều thông tin hơn">Easy Bus</a></h2>
-												<p class="subheadline">EB-Phần mềm tra cứu, tìm kiếm xe buýt và gợi ý đường đi bằng xe buýt được xây dựng trên nền tảng Android và Windowphones.
+												<p class="subheadline text-center">EasyBus is a great application which gives you the complete information of buses, smart journey planning and comprehensive route maps for every bus stop in big cities such as: Hanoi, Hochiminh…
 													<br><a href="">More information..</a>
 												</p>
 											</div>
@@ -175,27 +176,28 @@
 												<i class="fa fa-rocket i"></i>
 												<h3>Features</h3>
 												<ul class="features">
-													<li>Tra cứu thông tin chi tiết của tất cả xe bus của 2 tỉnh thành: Hà Nội, TP Hồ Chí Minh.</li>
-													<li>Tìm đường đi từ 2 điểm bằng xe buýt. </li>
-													<li>Tìm bến đỗ gần bạn. </li>
-													<li>Tính năng báo lỗi khi có tuyến buýt sai</li>
+													<li>Work well without internet connection</li>
+													<li>Friendly interface and easy to use</li>
+													<li>Impressive route planning by bus with clear instructions</li>
+													<li>Real-time GPS map of nearest stops</li>
+													<li>Frequently update, quickly response to user’s suggestions</li>
 												</ul>
 											</div>
 											<div class="products-block">
 												<i class="fa fa-gamepad i"></i>
 												<h3>Download</h3>
 												<ul class="dw-btns">
-													<li><a title="Download for iOS"><i class="fa fa-apple"></i></a></li>
-													<li><a title="Download for Android"><i class="fa fa-android"></i></a></li>
-													<li><a title="Download for Windows"><i class="fa fa-windows"></i></a></li>
+													<li class="hidden"><a title="Download for iOS"><i class="fa fa-apple"></i></a></li>
+													<li><a title="Download for Android" href="https://play.google.com/store/apps/details?id=com.hieund"><i class="fa fa-android"></i></a></li>
+													<li><a title="Download for Windows" href="https://www.microsoft.com/en-us/store/apps/easy-bus/9nblgggzn8c9"><i class="fa fa-windows"></i></a></li>
 												</ul>
 											</div>
 											<!-- productss List End -->
 										</div>
 										<div class="col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6">
-											<img class="img-responsive first" src="http://www.symbiotic-themes.com/chappi/demo/img/bg/phones1.png" width="200">
-											<img class="img-responsive second"  src="http://www.symbiotic-themes.com/chappi/demo/img/bg/phones1.png" width="200">
-											<img class="img-responsive threet"  src="http://www.symbiotic-themes.com/chappi/demo/img/bg/phones1.png" width="200">
+											<img class="img-responsive first" src="https://store-images.s-microsoft.com/image/apps.53135.13510798883405828.2c5d05c3-bd67-42bf-b30f-29f507d62a40.9e0a8031-733b-409f-b972-9f93a98ebe1f?w=712&h=400" width="200">
+											<img class="img-responsive second"  src="https://store-images.s-microsoft.com/image/apps.38431.13510798883405828.8f045328-e8b6-456c-9dcd-aa2b442e722f.d1395dc5-b3cd-4ef0-a4cb-b39178b0c6a9?w=712&h=400" width="200">
+											<img class="img-responsive three"  src="https://store-images.s-microsoft.com/image/apps.21200.13510798883405828.e219dd16-4780-4690-80c2-b1101c0cb814.9ac8b861-d3a8-4bee-a8af-4912893ed434?w=712&h=400" width="200">
 										</div>
 										<!-- productss Content End -->
 									</div>
@@ -217,8 +219,8 @@
 										<div class="col-sm-6 col-sm-push-6 col-md-6 col-md-push-6">
 											<!-- Heading -->
 											<div class="heading">
-												<h2 class="text-center"><a href="#" title="Nhiều thông tin hơn">Easy Bus</a></h2>
-												<p class="subheadline">EB-Phần mềm tra cứu, tìm kiếm xe buýt và gợi ý đường đi bằng xe buýt được xây dựng trên nền tảng Android và Windowphones.
+												<h2 class="text-center"><a href="#" title="Nhiều thông tin hơn">Diem Den Viet(iCompanion)</a></h2>
+												<p class="subheadline text-center">Diem den Viet (iCompanion) is one of the best mobile application about place finding and tourist spots suggestion in Vietnam.
 													<br><a href="">More information..</a>
 												</p>
 											</div>
@@ -229,27 +231,28 @@
 												<i class="fa fa-rocket i"></i>
 												<h3>Features</h3>
 												<ul class="features">
-													<li>Tra cứu thông tin chi tiết của tất cả xe bus của 2 tỉnh thành: Hà Nội, TP Hồ Chí Minh.</li>
-													<li>Tìm đường đi từ 2 điểm bằng xe buýt. </li>
-													<li>Tìm bến đỗ gần bạn. </li>
-													<li>Tính năng báo lỗi khi có tuyến buýt sai</li>
+													<li>Information about various kinds of places from many cities in Vietnam: tourism, cuisine, entrainment, hospital, bank, attraction…</li>
+													<li>Real-time GPS map of nearest spots</li>
+													<li>Quickly searching and automatically suggesting base on user’s interests.</li>
+													<li>User could review, comment and share the information to friends.</li>
+													<li>Friendly interface and easy to use</li>
 												</ul>
 											</div>
 											<div class="products-block">
 												<i class="fa fa-gamepad i"></i>
 												<h3>Download</h3>
 												<ul class="dw-btns">
-													<li><a title="Download for iOS"><i class="fa fa-apple"></i></a></li>
-													<li><a title="Download for Android"><i class="fa fa-android"></i></a></li>
-													<li><a title="Download for Windows"><i class="fa fa-windows"></i></a></li>
+													<li><a title="Download for iOS" href="https://itunes.apple.com/bh/app/diem-den-viet/id782438041"><i class="fa fa-apple"></i></a></li>
+													<li><a title="Download for Android" href="https://play.google.com/store/apps/details?id=hust.se.vtio.icompanion"><i class="fa fa-android"></i></a></li>
+													<li><a title="Download for Windows" href="https://www.microsoft.com/en-us/store/apps/%C4%91iem-%C4%91en-viet/9nblggh09f9w"><i class="fa fa-windows"></i></a></li>
 												</ul>
 											</div>
 											<!-- productss List End -->
 										</div>
 										<div class="col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6">
-											<img class="img-responsive first" src="http://www.symbiotic-themes.com/chappi/demo/img/bg/phones1.png" width="200">
-											<img class="img-responsive second"  src="http://www.symbiotic-themes.com/chappi/demo/img/bg/phones1.png" width="200">
-											<img class="img-responsive threet"  src="http://www.symbiotic-themes.com/chappi/demo/img/bg/phones1.png" width="200">
+											<img class="img-responsive first" src="https://store-images.s-microsoft.com/image/apps.62586.13510798882877394.ff5c24f2-0a83-4860-8709-00fcd30c5509.c2cfd47b-eff4-4f3e-b58a-8fcdbffb6645?w=712&h=400" width="200">
+											<img class="img-responsive second"  src="https://store-images.s-microsoft.com/image/apps.26014.13510798882877394.3e606fd8-445c-4e7b-a94c-a971e107f0bf.c0da7d81-1a39-4300-b39c-b3786adc6f46?w=712&h=400" width="200">
+											<img class="img-responsive three"  src="http://a1.mzstatic.com/us/r30/Purple1/v4/7f/42/90/7f42908b-617f-f5a9-4d13-8d019264c756/screen568x568.jpeg" width="200">
 										</div>
 										<!-- productss Content End -->
 									</div>
@@ -267,14 +270,14 @@
 			<div class="about container">
 				<div class="about-intro">
 					<h1 class="text-center wow fadeIn"  data-wow-delay="0.5s">ABOUT US</h1>
-					<h4 class="text-center wow fadeIn" data-wow-delay="1.5s">Hanoi University of Science and Technology</h4>
+					<h4 class="text-center wow fadeIn" data-wow-delay="1s">Hanoi University of Science and Technology</h4>
 				</div>
-				<div class="row about-info  wow fadeIn" data-wow-delay="1.5s">
+				<div class="row about-info  wow fadeIn" data-wow-delay="1s">
 					<div class="col-sm-4">
 						<div class="row">
 							<div class="col-sm-12">
 								<h3 class="text-center"><i class="fa fa-fw fa-phone fa-2x"></i></h3>
-								<p class="text-center">+84 977 903 921</p>
+								<p class="text-center">+84 xxx xxx xxx</p>
 							</div>
 							<div class="col-sm-12">
 								<h3 class="text-center"><i class="fa fa-fw fa-send fa-2x"></i></h3>
@@ -298,10 +301,10 @@
 			<div class="contact container">
 				<div class="contact-intro">
 					<h1 class="text-center wow fadeInDown"  data-wow-delay="0.5s">CONTACT US</h1>
-					<h4 class="text-center wow fadeInDown"  data-wow-delay="1s">Don't hesitate to get in touch with us, We would love to discuss on your project.</h4>
+					<h4 class="text-center wow fadeInDown"  data-wow-delay="0.5s">Don't hesitate to get in touch with us, We would love to discuss on your project.</h4>
 					<h2 class="text-center">x</h2>
 				</div>
-				<div class="col-sm-4 wow fadeInDown"  data-wow-delay="1.5s">
+				<div class="col-sm-4 wow fadeInDown"  data-wow-delay="1s">
 					<div class="row">
 						<div class="col-sm-12">
 							<label for="">Name *</label>
@@ -320,12 +323,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-8 wow fadeInDown" data-wow-delay="1.5s">
+				<div class="col-sm-8 wow fadeInDown" data-wow-delay="1s">
 					<label for="">Message *</label>
 					<br>
 					<textarea class="" rows="9" placeholder="Type something"></textarea>
 				</div>
-				<div class="col-sm-12 wow fadeInDown" data-wow-delay="1.5s">
+				<div class="col-sm-12 wow fadeInDown" data-wow-delay="1s">
 					<div class="col-sm-2 col-sm-offset-5">
 						<button>Submit</button>
 					</div>
