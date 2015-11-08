@@ -5,10 +5,18 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Semantic Innovation Group - Nhóm nghiên cứu chuyên sâu về công nghệ ngữ nghĩa, xử lý dữ liệu internet và tính toán di động">
-		<META NAME="keywords" CONTENT="Semantic Innovation Group, Semantic, Innovation, Group">
+		<META NAME="keywords" CONTENT="Semantic Innovation Group, Semantic, Innovation, Group, icompation, ngữ nghĩa, easybus, bus, ha noi bus">
 		<meta name="Author" content="LengKeng, E-mail: ohmygodvt95@gmail.com">
-		<meta name="copyright" content="Copyright <?php echo date('Y');?> by LengKeng">
+		<meta name="copyright" content="Copyright <?php echo date('Y');?> by Semantic Innovation Group">
 		<link rel="shortcut icon" type="image/png" href="<?php echo base_url();?>asset/images/favicon.png" />
+		<meta property="og:title" content="Semantic Innovation Group" /> 
+        <meta property="og:locale" content="vi_VN" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" /> 
+        <meta property="og:image" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" />
+        <meta property="og:description" content="Semantic Innovation Group" /> 
+        <meta property="og:site_name" content="Semantic Innovation Group" />
+        <meta property="fb:admins" content="" />
 		<title>Semantic Innovation Group</title>
 		<!-- Load CSS-->
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/reset.min.css">
