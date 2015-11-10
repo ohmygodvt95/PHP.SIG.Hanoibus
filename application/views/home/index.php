@@ -13,8 +13,8 @@
         <meta property="og:locale" content="vi_VN" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" />
-        <meta property="og:image" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" />
-        <meta property="og:description" content="Semantic Innovation Group" />
+        <meta property="og:image" content="<?php echo base_url();?>asset/images/img.jpg" />
+        <meta property="og:description" content="Semantic Innovation Group - The team specializes in semantic technology, Internet-based data processing and mobile computing." />
         <meta property="og:site_name" content="Semantic Innovation Group" />
         <meta property="fb:admins" content="" />
 		<title>Semantic Innovation Group</title>
@@ -28,9 +28,8 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/owl.carousel.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/owl.theme.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/owl.transitions.css">
-		<!-- Load customize style -->
-		<link href="http://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet" type="text/css">
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500|Pacifico' rel='stylesheet' type='text/css'>
+		<!-- Load customize font -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500|Raleway:400,500' rel='stylesheet' type='text/css'>
 		<!-- Style -->
 		<style>
 		ul{
@@ -108,22 +107,22 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand page-scroll scroll" href="#page-top" scroll="intro">S . I . G</a>
+					<a class="navbar-brand page-scroll scroll" href="#page-top" scroll="intro" title="Semantic Innovation Group">S . I . G</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a class="page-scroll scroll"  href="#top" scroll="top">Home</a>
+							<a class="page-scroll scroll"  href="#top" scroll="top" title="Home">Home</a>
 						</li>
 						<li>
-							<a class="page-scroll scroll"  href="#products" scroll="products">Products</a>
+							<a class="page-scroll scroll"  href="#products" scroll="products" title="Product">Products</a>
 						</li>
 						<li>
-							<a class="page-scroll scroll" href="#about" scroll="about">About</a>
+							<a class="page-scroll scroll" href="#about" scroll="about" title="About">About</a>
 						</li>
 						<li>
-							<a class="page-scroll scroll" href="#contact" scroll="contact">Contact</a>
+							<a class="page-scroll scroll" href="#contact" scroll="contact" title="Contact">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -143,7 +142,7 @@
 					</div>
 					<div class="intro-body" >
 						<h2 class="text-center">
-						<a href="#products" class="scroll" scroll="products">
+						<a href="#products" class="scroll" scroll="products" title="Product">
 							<span class="fa-stack fa-lg wow fadeIn" data-wow-delay="1.5s">
 								<i class="fa fa-circle fa-stack-2x ground"></i>
 								<i class="fa fa-angle-double-down fa-stack-1x fa-inverse click" style="color: black;" title="Click me!"></i>
@@ -304,6 +303,7 @@
 				</div>
 			</div>
 		</section>
+		<!-- Contact -->
 		<section id="contact">
 			<div class="contact container">
 				<div class="contact-intro">
@@ -342,12 +342,14 @@
 				</div>
 			</div>
 		</section>
+		<!-- Footer -->
 		<footer>
 			<div class="container">
 				<h3 class="col-sm-6 text-right">All Rights Reserved - Copyright &copy 2015</h3>
 				<h3 class="col-sm-6 text-left"><span class="text-bold wow fadeIn" data-wow-delay="0.5s">S</span>emantic <span class="text-bold wow fadeIn" data-wow-delay="0.7s">I</span>nnovation <span class="text-bold wow fadeIn" data-wow-delay="1s">G</span>roup</h3>
 			</div>
 		</footer>
+		<!-- / end footer -->
 		<!-- JQUERY -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<!-- BOÓTTRAP -->
