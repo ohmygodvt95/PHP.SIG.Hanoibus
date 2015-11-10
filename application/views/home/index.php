@@ -23,7 +23,6 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/animate.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/slider.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/style.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/media.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>asset/css/owl.carousel.css">
