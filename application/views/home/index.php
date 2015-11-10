@@ -9,12 +9,12 @@
 		<meta name="Author" content="LengKeng, E-mail: ohmygodvt95@gmail.com">
 		<meta name="copyright" content="Copyright <?php echo date('Y');?> by Semantic Innovation Group">
 		<link rel="shortcut icon" type="image/png" href="<?php echo base_url();?>asset/images/favicon.png" />
-		<meta property="og:title" content="Semantic Innovation Group" /> 
+		<meta property="og:title" content="Semantic Innovation Group" />
         <meta property="og:locale" content="vi_VN" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" /> 
+        <meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" />
         <meta property="og:image" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" />
-        <meta property="og:description" content="Semantic Innovation Group" /> 
+        <meta property="og:description" content="Semantic Innovation Group" />
         <meta property="og:site_name" content="Semantic Innovation Group" />
         <meta property="fb:admins" content="" />
 		<title>Semantic Innovation Group</title>
@@ -350,7 +350,7 @@
 			</div>
 		</footer>
 		<!-- JQUERY -->
-		<script src="<?php echo base_url();?>asset/js/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<!-- BOÓTTRAP -->
 		<script src="<?php echo base_url();?>asset/js/bootstrap.min.js"></script>
 		<!-- PLUGIN -->
@@ -415,8 +415,8 @@
 			// jQuery for page scrolling products - requires jQuery Easing plugin
 			// Preloader Website
 		$(window).load(function() {
-		$('#loader-wrapper').delay(450).fadeOut();
-		$('#loader').delay(750).fadeOut('slow');
+		$('#loader-wrapper').delay(250).fadeOut();
+		$('#loader').delay(400).fadeOut('slow');
 		});
 		</script>
 	</body>
