@@ -172,7 +172,7 @@
 											<div class="heading">
 												<h2 class="text-center"><a href="#" title="Nhiều thông tin hơn">Easy Bus</a></h2>
 												<p class="subheadline text-center">EasyBus is a great application which gives you the complete information of buses, smart journey planning and comprehensive route maps for every bus stop in big cities such as: Hanoi, Hochiminh…
-													<br><a href="">More information..</a>
+													<br><a href="http://172.245.22.156:8080/EasyBusWS/">More information..</a>
 												</p>
 											</div>
 											<!-- Heading End -->
@@ -400,7 +400,7 @@
 			        "<i class='fa fa-2x fa-chevron-left'></i>",
 			        "<i class='fa fa-2x fa-chevron-right'></i>"
 			        ],
-			        autoPlay : 4000
+			        autoPlay : 8000
 			        });
 			});
 		</script>
