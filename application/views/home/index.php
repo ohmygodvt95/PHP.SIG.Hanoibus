@@ -275,30 +275,35 @@
 		<section id="about">
 			<div class="about container">
 				<div class="about-intro">
-					<h1 class="text-center wow fadeIn"  data-wow-delay="0.5s">ABOUT US</h1>
-					<h4 class="text-center wow fadeIn" data-wow-delay="1s">Hanoi University of Science and Technology</h4>
+					<h1 class="text-center wow fadeIn"  data-wow-delay="0.25s" title="About">ABOUT US</h1>
+					<h4 class="text-center wow fadeIn" data-wow-delay="0.5s">Hanoi University of Science and Technology</h4>
 				</div>
-				<div class="row about-info  wow fadeIn" data-wow-delay="1s">
+				<div class="row about-info  wow fadeIn" data-wow-delay="0.5s">
 					<div class="col-sm-4">
 						<div class="row">
 							<div class="col-sm-12">
 								<h3 class="text-center"><i class="fa fa-fw fa-phone fa-2x"></i></h3>
-								<p class="text-center">+84 xxx xxx xxx</p>
+								<p class="text-center" title="Phone">+84 xxx xxx xxx</p>
 							</div>
 							<div class="col-sm-12">
 								<h3 class="text-center"><i class="fa fa-fw fa-send fa-2x"></i></h3>
-								<p class="text-center">caotuandung@gmail.com</p>
+								<p class="text-center" title="Email">caotuandung@gmail.com</p>
 							</div>
 							<div class="col-sm-12">
 								<h3 class="text-center"><i class="fa fa-fw fa-map-marker fa-2x"></i></h3>
-								<p class="text-center">1 Dai Co Viet Road, Hanoi, Viet Nam</p>
+								<p class="text-center" title="Address">1 Dai Co Viet Road, Hanoi, Viet Nam</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-8 introduction  wow fadeIn" data-wow-delay="1s">
-						<h2 class="text-center">Introduction</h2>
-						<p >Lorem ipsum Duis deserunt officia consectetur occaecat fugiat voluptate sunt aliqua enim in tempor elit labore occaecat.Lorem ipsum Laborum pariatur Ut Excepteur eu in aute nulla qui sunt magna veniam est fugiat deserunt elit sed occaecat Duis sed nulla est. <a href="">See more...</a></p>
-						<h2 class="text-center">Members</h2>
+					<div class="col-sm-8 introduction  wow fadeIn" data-wow-delay="0.5s">
+						<h2 class="text-center" title="Introduction">Introduction</h2>
+						<p class="" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.3);">Thành lập vào 6/2011, SIG là nhóm nghiên cứu với các thành viên đến từ HUST, trường đại học về kỹ thuật công nghệ hàng đầu Việt Nam. Chúng tôi cung cấp các ứng dụng và giải pháp công nghệ tiên tiến về các lĩnh vực:
+						<ul style="list-style: outside; font-size: 16px" class="about-more-info">
+							<li>Nền tảng quản lý tri thức (knowledge management platform) với Semantic Web technologies</li>
+							<li>Tìm kiếm thông tin với ngữ nghĩa (Semantic Search) trong các hệ thống thông tin</li>
+							<li>Ứng dụng thông minh trên nền tảng di động</li>
+							<li><a href="#" title="see more">See more...</a></li>
+						</ul></p>
 					</div>
 				</div>
 			</div>
@@ -307,11 +312,11 @@
 		<section id="contact">
 			<div class="contact container">
 				<div class="contact-intro">
-					<h1 class="text-center wow fadeInDown"  data-wow-delay="0.5s">CONTACT US</h1>
-					<h4 class="text-center wow fadeInDown"  data-wow-delay="0.5s">Don't hesitate to get in touch with us, We would love to discuss on your project.</h4>
+					<h1 class="text-center wow fadeInDown"  data-wow-delay="0.25s">CONTACT US</h1>
+					<h4 class="text-center wow fadeInDown"  data-wow-delay="0.25s">Don't hesitate to get in touch with us, We would love to discuss on your project.</h4>
 					<h2 class="text-center">x</h2>
 				</div>
-				<div class="col-sm-4 wow fadeInDown"  data-wow-delay="1s">
+				<div class="col-sm-4 wow fadeInDown"  data-wow-delay="0.5s">
 					<div class="row">
 						<div class="col-sm-12">
 							<label for="">Name *</label>
@@ -330,12 +335,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-8 wow fadeInDown" data-wow-delay="1s">
+				<div class="col-sm-8 wow fadeInDown" data-wow-delay="0.5s">
 					<label for="">Message *</label>
 					<br>
 					<textarea class="" rows="9" placeholder="Type something"></textarea>
 				</div>
-				<div class="col-sm-12 wow fadeInDown" data-wow-delay="1s">
+				<div class="col-sm-12 wow fadeInDown" data-wow-delay="0.5s">
 					<div class="col-sm-2 col-sm-offset-5">
 						<button>Submit</button>
 					</div>
@@ -346,7 +351,7 @@
 		<footer>
 			<div class="container">
 				<h3 class="col-sm-6 text-right">All Rights Reserved - Copyright &copy 2015</h3>
-				<h3 class="col-sm-6 text-left"><span class="text-bold wow fadeIn" data-wow-delay="0.5s">S</span>emantic <span class="text-bold wow fadeIn" data-wow-delay="0.7s">I</span>nnovation <span class="text-bold wow fadeIn" data-wow-delay="1s">G</span>roup</h3>
+				<h3 class="col-sm-6 text-left"><span class="text-bold wow fadeIn" data-wow-delay="0.25s">S</span>emantic <span class="text-bold wow fadeIn" data-wow-delay="0.5s">I</span>nnovation <span class="text-bold wow fadeIn" data-wow-delay="0.75s">G</span>roup</h3>
 			</div>
 		</footer>
 		<!-- / end footer -->
@@ -386,19 +391,6 @@
 					$('.navbar-toggle:visible').click();
 				});
 				new WOW().init();
-				// $('.slider').bxSlider({
-				// auto: true,
-				// easing: 'easeOutElastic',
-				// nextSelector: '#slider-next',
-				// prevSelector: '#slider-prev',
-				// nextText: 'Next →',
-				// prevText: '← Prev',
-				// preventDefaultSwipeY: true,
-				// autoHover: true,
-				// speed: 2000,
-				// adaptiveHeight: true,
-				// pagerCustom: '#bx-pager'
-				// });
 			$(".slider").owlCarousel({
 			        navigation : true, // Show next and prev buttons
 			        slideSpeed : 300,
