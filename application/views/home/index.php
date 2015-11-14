@@ -113,17 +113,18 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a class="page-scroll scroll"  href="#top" scroll="top" title="Home">Home</a>
+							<a class=""  href="#top" scroll="top" title="Home"><?php echo $this->lang->line('menu_home');?></a>
 						</li>
 						<li>
-							<a class="page-scroll scroll"  href="#products" scroll="products" title="Product">Products</a>
+							<a class="page-scroll scroll"  href="#products" scroll="products" title="Product"><?php echo $this->lang->line('menu_product');?></a>
 						</li>
 						<li>
-							<a class="page-scroll scroll" href="#about" scroll="about" title="About">About</a>
+							<a class="page-scroll scroll" href="#about" scroll="about" title="About"><?php echo $this->lang->line('menu_about');?></a>
 						</li>
 						<li>
-							<a class="page-scroll scroll" href="#contact" scroll="contact" title="Contact">Contact</a>
+							<a class="page-scroll scroll" href="#contact" scroll="contact" title="Contact"><?php echo $this->lang->line('menu_contact');?></a>
 						</li>
+						<li><a class="lang" title="Language" href="<?php if($lang == "en") echo site_url().'?lang=vi'; else echo site_url().'?lang=en';?>"><img src="<?php echo base_url("asset/images/"); if($lang == 'vi') echo "/en.gif"; else echo "/vi.gif";?>" height="20" alt="" style="margin-top: -2px"></a></li>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -138,7 +139,7 @@
 				<div class="container">
 					<div class="intro-header">
 						<h1 class="text-center wow fadeInDown" data-wow-delay="0.5s"><span class="text-bold wow fadeIn" data-wow-delay="1.5s">S</span>emantic <span class="text-bold wow fadeIn" data-wow-delay="1.7s">I</span>nnovation <span class="text-bold wow fadeIn" data-wow-delay="2s">G</span>roup</h1>
-						<h4 class="text-center wow fadeInDown" data-wow-delay="1s">The team specializes in semantic technology, Internet-based data processing and mobile computing.</h4>
+						<h4 class="text-center wow fadeInDown" data-wow-delay="1s"><?php echo $this->lang->line('home_sologan');?></h4>
 					</div>
 					<div class="intro-body" >
 						<h2 class="text-center">
@@ -156,7 +157,7 @@
 		<section  id="products"  style="background-color:#EBE9E9">
 			<div class="banner">
 				<div class="outside">
-					<h3 class="text-center wow fadeInDown" data-wow-delay="0.5s">Products</h3>
+					<h3 class="text-center wow fadeInDown" data-wow-delay="0.5s"><?php echo $this->lang->line('product_header');?></h3>
 				</div>
 				<ul class="slider" >
 					<li class="item">
@@ -171,8 +172,9 @@
 											<!-- Heading -->
 											<div class="heading">
 												<h2 class="text-center"><a href="#" title="Nhiều thông tin hơn">Easy Bus</a></h2>
-												<p class="subheadline text-center">EasyBus is a great application which gives you the complete information of buses, smart journey planning and comprehensive route maps for every bus stop in big cities such as: Hanoi, Hochiminh…
-													<br><a href="http://172.245.22.156:8080/EasyBusWS/">More information..</a>
+												<p class="subheadline text-center">
+												<?php echo $this->lang->line('easybus_h1');?>
+													<br><a href="http://172.245.22.156:8080/EasyBusWS/"><?php echo $this->lang->line('see_more');?></a>
 												</p>
 											</div>
 											<!-- Heading End -->
@@ -180,18 +182,18 @@
 											<!-- productss List -->
 											<div class="products-block">
 												<i class="fa fa-rocket i"></i>
-												<h3>Features</h3>
+												<h3><?php echo $this->lang->line('prosuct_feature');?></h3>
 												<ul class="features">
-													<li>Work well without internet connection</li>
-													<li>Friendly interface and easy to use</li>
-													<li>Impressive route planning by bus with clear instructions</li>
-													<li>Real-time GPS map of nearest stops</li>
-													<li>Frequently update, quickly response to user’s suggestions</li>
+													<li><?php echo $this->lang->line('easybus_h2');?></li>
+													<li><?php echo $this->lang->line('easybus_h3');?></li>
+													<li><?php echo $this->lang->line('easybus_h4');?></li>
+													<li><?php echo $this->lang->line('easybus_h5');?></li>
+													<li><?php echo $this->lang->line('easybus_h6');?></li>
 												</ul>
 											</div>
 											<div class="products-block">
 												<i class="fa fa-gamepad i"></i>
-												<h3>Download</h3>
+												<h3><?php echo $this->lang->line('product_download');?></h3>
 												<ul class="dw-btns">
 													<li class="hidden"><a title="Download for iOS"><i class="fa fa-apple"></i></a></li>
 													<li><a title="Download for Android" href="https://play.google.com/store/apps/details?id=com.hieund"><i class="fa fa-android"></i></a></li>
@@ -226,8 +228,8 @@
 											<!-- Heading -->
 											<div class="heading">
 												<h2 class="text-center"><a href="#" title="Nhiều thông tin hơn">Diem Den Viet(iCompanion)</a></h2>
-												<p class="subheadline text-center">Diem den Viet (iCompanion) is one of the best mobile application about place finding and tourist spots suggestion in Vietnam.
-													<br><a href="">More information..</a>
+												<p class="subheadline text-center">Diem den Viet (<?php echo $this->lang->line('icompanion_h1');?>
+													<br><a href=""><?php echo $this->lang->line('see_more');?></a>
 												</p>
 											</div>
 											<!-- Heading End -->
@@ -235,18 +237,18 @@
 											<!-- productss List -->
 											<div class="products-block">
 												<i class="fa fa-rocket i"></i>
-												<h3>Features</h3>
+												<h3><?php echo $this->lang->line('product_feature');?></h3>
 												<ul class="features">
-													<li>Information about various kinds of places from many cities in Vietnam: tourism, cuisine, entrainment, hospital, bank, attraction…</li>
-													<li>Real-time GPS map of nearest spots</li>
-													<li>Quickly searching and automatically suggesting base on user’s interests.</li>
-													<li>User could review, comment and share the information to friends.</li>
-													<li>Friendly interface and easy to use</li>
+													<li><?php echo $this->lang->line('icompanion_h2');?></li>
+													<li><?php echo $this->lang->line('icompanion_h3');?></li>
+													<li><?php echo $this->lang->line('icompanion_h4');?></li>
+													<li><?php echo $this->lang->line('icompanion_h5');?></li>
+													<li><?php echo $this->lang->line('icompanion_h6');?></li>
 												</ul>
 											</div>
 											<div class="products-block">
 												<i class="fa fa-gamepad i"></i>
-												<h3>Download</h3>
+												<h3><?php echo $this->lang->line('product_download');?></h3>
 												<ul class="dw-btns">
 													<li><a title="Download for iOS" href="https://itunes.apple.com/bh/app/diem-den-viet/id782438041"><i class="fa fa-apple"></i></a></li>
 													<li><a title="Download for Android" href="https://play.google.com/store/apps/details?id=hust.se.vtio.icompanion"><i class="fa fa-android"></i></a></li>
@@ -275,8 +277,8 @@
 		<section id="about">
 			<div class="about container">
 				<div class="about-intro">
-					<h1 class="text-center wow fadeIn"  data-wow-delay="0.25s" title="About">ABOUT US</h1>
-					<h4 class="text-center wow fadeIn" data-wow-delay="0.5s">Hanoi University of Science and Technology</h4>
+					<h1 class="text-center wow fadeIn"  data-wow-delay="0.25s" title="About"><?php echo $this->lang->line('about_header');?></h1>
+					<h4 class="text-center wow fadeIn" data-wow-delay="0.5s"><?php echo $this->lang->line('about_sologan');?></h4>
 				</div>
 				<div class="row about-info  wow fadeIn" data-wow-delay="0.5s">
 					<div class="col-sm-4">
@@ -296,13 +298,13 @@
 						</div>
 					</div>
 					<div class="col-sm-8 introduction  wow fadeIn" data-wow-delay="0.5s">
-						<h2 class="text-center" title="Introduction">Introduction</h2>
-						<p class="" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.3);">Thành lập vào 6/2011, SIG là nhóm nghiên cứu với các thành viên đến từ HUST, trường đại học về kỹ thuật công nghệ hàng đầu Việt Nam. Chúng tôi cung cấp các ứng dụng và giải pháp công nghệ tiên tiến về các lĩnh vực:
+						<h2 class="text-center" title="Introduction"><?php echo $this->lang->line('about_introduction');?></h2>
+						<p class="" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.3);"><?php echo $this->lang->line('about_intro_h1');?>
 						<ul style="list-style: outside; font-size: 16px" class="about-more-info">
-							<li>Nền tảng quản lý tri thức (knowledge management platform) với Semantic Web technologies</li>
-							<li>Tìm kiếm thông tin với ngữ nghĩa (Semantic Search) trong các hệ thống thông tin</li>
-							<li>Ứng dụng thông minh trên nền tảng di động</li>
-							<li><a href="#" title="see more">See more...</a></li>
+							<li><?php echo $this->lang->line('about_intro_h2');?></li>
+							<li><?php echo $this->lang->line('about_intro_h3');?></li>
+							<li><?php echo $this->lang->line('about_intro_h4');?></li>
+							<li><a href="#" title="see more"><?php echo $this->lang->line('see_more');?></a></li>
 						</ul></p>
 					</div>
 				</div>
@@ -312,37 +314,37 @@
 		<section id="contact">
 			<div class="contact container">
 				<div class="contact-intro">
-					<h1 class="text-center wow fadeInDown"  data-wow-delay="0.25s">CONTACT US</h1>
-					<h4 class="text-center wow fadeInDown"  data-wow-delay="0.25s">Don't hesitate to get in touch with us, We would love to discuss on your project.</h4>
+					<h1 class="text-center wow fadeInDown"  data-wow-delay="0.25s"><?php echo $this->lang->line('contact_header');?></h1>
+					<h4 class="text-center wow fadeInDown"  data-wow-delay="0.25s"><?php echo $this->lang->line('contact_sologan');?></h4>
 					<h2 class="text-center">x</h2>
 				</div>
 				<div class="col-sm-4 wow fadeInDown"  data-wow-delay="0.5s">
 					<div class="row">
 						<div class="col-sm-12">
-							<label for="">Name *</label>
+							<label for=""><?php echo $this->lang->line('contact_name');?> *</label>
 							<br>
 							<input type="text" class="" placeholder="Your name">
 						</div>
 						<div class="col-sm-12">
-							<label for="">Email *</label>
+							<label for=""><?php echo $this->lang->line('contact_email');?> *</label>
 							<br>
 							<input type="email" class="" placeholder="Your email">
 						</div>
 						<div class="col-sm-12">
-							<label for="">Phone</label>
+							<label for=""><?php echo $this->lang->line('contact_phone');?></label>
 							<br>
 							<input type="text" class="" placeholder="Your phone">
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-8 wow fadeInDown" data-wow-delay="0.5s">
-					<label for="">Message *</label>
+					<label for=""><?php echo $this->lang->line('contact_message');?> *</label>
 					<br>
 					<textarea class="" rows="9" placeholder="Type something"></textarea>
 				</div>
 				<div class="col-sm-12 wow fadeInDown" data-wow-delay="0.5s">
 					<div class="col-sm-2 col-sm-offset-5">
-						<button>Submit</button>
+						<button><?php echo $this->lang->line('contact_submit');?></button>
 					</div>
 				</div>
 			</div>
@@ -402,6 +404,14 @@
 			        ],
 			        autoPlay : 8000
 			        });
+			$(document).on('click', '.lang', function(event) {
+				var lang = $(this).attr('lang');
+				$.post('<?php echo site_url();?>', {lang: lang}, function(data, textStatus, xhr) {
+					if(textStatus == "success"){
+						$('html').html(data);
+					}
+				});
+			});
 			});
 		</script>
 		<script>
