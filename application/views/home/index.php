@@ -9,7 +9,7 @@
 		<meta name="Author" content="LengKeng, E-mail: ohmygodvt95@gmail.com">
 		<meta name="copyright" content="Copyright <?php echo date('Y');?> by Semantic Innovation Group">
 		<link rel="shortcut icon" type="image/png" href="<?php echo base_url();?>asset/images/favicon.png" />
-		<meta property="og:title" content="Semantic Innovation Group" />
+		<meta property="og:title" content="Semantic Innovation Group - The team specializes in semantic technology, Internet-based data processing and mobile computing." />
         <meta property="og:locale" content="vi_VN" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" />
