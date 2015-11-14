@@ -9,6 +9,7 @@
     $lang['home_sologan'] = "Nhóm nghiên cứu chuyên sâu về công nghệ ngữ nghĩa, xử lý dữ liệu internet và tính toán di động.";
     /*Products*/
 $lang['product_header'] = "PRODUCTS";
+$lang['product_sologan'] = "Trải nghiệm ngay sản phẩm của chúng tôi.";
 $lang['product_feature'] = "Tính năng";
 $lang['product_download'] = "Tải về";
 

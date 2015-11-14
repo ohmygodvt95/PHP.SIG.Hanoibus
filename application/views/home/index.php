@@ -88,6 +88,9 @@
 		font-size: 16px;
 	}
 }
+		.roboto{
+			font-family: 'Roboto'!important;
+		}
 		</style>
 	</head>
 	<body class="particle">
@@ -124,7 +127,7 @@
 						<li>
 							<a class="page-scroll scroll" href="#contact" scroll="contact" title="Contact"><?php echo $this->lang->line('menu_contact');?></a>
 						</li>
-						<li><a class="lang" title="Language" href="<?php if($lang == "en") echo site_url().'?lang=vi'; else echo site_url().'?lang=en';?>"><img src="<?php echo base_url("asset/images/"); if($lang == 'vi') echo "/en.gif"; else echo "/vi.gif";?>" height="20" alt="" style="margin-top: -2px"></a></li>
+						<li><a class="lang" title="Change language" href="<?php if($lang == "en") echo site_url().'?lang=vi'; else echo site_url().'?lang=en';?>"><img src="<?php echo base_url("asset/images/"); if($lang == 'vi') echo "/en.gif"; else echo "/vi.gif";?>" height="20" alt="" style="margin-top: -2px"></a></li>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -158,6 +161,7 @@
 			<div class="banner">
 				<div class="outside">
 					<h3 class="text-center wow fadeInDown" data-wow-delay="0.5s"><?php echo $this->lang->line('product_header');?></h3>
+					<h4 class="text-center wow fadeIn roboto" data-wow-delay="0.5s"><?php echo $this->lang->line('product_sologan');?></h4>
 				</div>
 				<ul class="slider" >
 					<li class="item">

@@ -12,6 +12,7 @@ $lang['home_sologan'] = "The team specializes in semantic technology, Internet-b
 
 /*Products*/
 $lang['product_header'] = "PRODUCTS";
+$lang['product_sologan'] = "Experience our products.";
 $lang['product_feature'] = "Features";
 $lang['product_download'] = "Download";
 
