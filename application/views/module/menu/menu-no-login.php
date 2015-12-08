@@ -20,5 +20,4 @@
 					</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
-				<div id="progress"><div><div/></div>
 			</nav>
